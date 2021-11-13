@@ -43,6 +43,7 @@ COURSE_ENROLLMENT_CREATED = OpenEdxPublicSignal(
     event_type="org.openedx.learning.course.enrollment.created.v1",
     data={
         "enrollment": CourseEnrollmentData,
+        "user": UserData,
     }
 )
 
